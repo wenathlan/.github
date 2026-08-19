@@ -1,22 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="138" viewBox="0 0 400 138" role="img" aria-label="AudioForge">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="156" viewBox="0 0 400 156" role="img">
   <defs>
-    <linearGradient id="ov" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
-    <filter id="shp" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#7a2a00" flood-opacity="0.10"/></filter>
-    <clipPath id="cp"><rect x="6" y="6" width="388" height="126" rx="16"/></clipPath>
+    <linearGradient id="ap1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4430c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <linearGradient id="bp1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
+    <filter id="sp1" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#5a2a00" flood-opacity="0.12"/></filter>
+    <clipPath id="cl"><rect x="0" y="0" width="400" height="156" rx="20"/></clipPath>
   </defs>
-  <g clip-path="url(#cp)">
-    <rect x="6" y="6" width="388" height="126" rx="16" fill="#ffffff" stroke="#f0e6df" filter="url(#shp)"/>
-    <g transform="translate(26 33)">
-      <rect x="0" y="0" width="72" height="72" rx="18" fill="url(#ov)"/>
-      <g transform="translate(36 36)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round">
-        <line x1="-18" y1="0" x2="18" y2="0"/><line x1="-11" y1="-13" x2="11" y2="13"/><line x1="-11" y1="13" x2="11" y2="-13"/>
-      </g>
-    </g>
-    <text x="118" y="50" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="19" font-weight="800" fill="#1f2937">AudioForge</text>
-    <text x="118" y="74" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" fill="#475467">Real-time audio toolkit · DSP &amp; FX</text>
-    <text x="118" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#9aa1ad">TS · Rust · WebAudio · WASM</text>
-    <rect x="118" y="106" width="240" height="4" rx="2" fill="#f0e6df"/>
-    <rect x="118" y="106" width="170" height="4" rx="2" fill="url(#ov)"><animate attributeName="width" values="170;210;170" dur="3.5s" repeatCount="indefinite"/></rect>
-    <text x="356" y="34" text-anchor="end" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#d4430c">01</text>
+  <g clip-path="url(#cl)">
+    <rect x="0" y="0" width="400" height="156" rx="20" fill="#ffffff" stroke="#f0e6df" filter="url(#sp1)"/>
+    <circle cx="376" cy="20" r="58" fill="url(#ap1)" opacity=".06"/>
+    <rect x="0" y="0" width="6" height="156" rx="3" fill="url(#ap1)"/>
+    <g transform="translate(26 22)"><rect x="0" y="-2" width="106" height="26" rx="13" fill="url(#ap1)"/><text x="15" y="16" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.4">PROJECT 01</text></g>
+    <text x="26" y="70" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="18" font-weight="800" fill="#1f2937">AudioForge</text>
+    <g transform="translate(336 44)"><rect width="40" height="40" rx="12" fill="url(#ap1)"/><path transform="translate(8 8)" d="M3 12c1.5-6 3-6 4.5 0s3 6 4.5 0 3-6 4.5 0 3 6 4.5 0" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="26" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">AI audio toolkit: separate, clean,</text>
+    <text x="26" y="112" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">master & synthesize in real time.</text>
+    <rect x="26" y="130" width="300" height="6" rx="3" fill="#f0e6df"/>
+    <rect x="26" y="130" height="6" rx="3" fill="url(#bp1)"><animate attributeName="width" values="0;282;282" dur="1.4s" fill="freeze"/><animate attributeName="width" values="282;290;282" dur="3.2s" repeatCount="indefinite" begin="1.4s"/></rect>
+    <text x="332" y="136" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#9a3412">94%</text>
   </g>
 </svg>

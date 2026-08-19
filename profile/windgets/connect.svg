@@ -1,51 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="236" viewBox="0 0 400 236" role="img" aria-label="Connect">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="268" viewBox="0 0 400 268" role="img">
   <defs>
-    <linearGradient id="hC" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
-    <linearGradient id="gG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
-    <linearGradient id="gB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
-    <filter id="shC" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#5a2a00" flood-opacity="0.10"/></filter>
-    <clipPath id="cc"><rect x="6" y="6" width="388" height="224" rx="18"/></clipPath>
+    <linearGradient id="aconnect" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4430c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <linearGradient id="bconnect" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
+    <filter id="sconnect" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#5a2a00" flood-opacity="0.12"/></filter>
+    <clipPath id="cl"><rect x="0" y="0" width="400" height="268" rx="20"/></clipPath>
   </defs>
-  <g clip-path="url(#cc)">
-    <rect x="6" y="6" width="388" height="224" rx="18" fill="#ffffff" stroke="#eee2db" filter="url(#shC)"/>
-    <rect x="6" y="6" width="6" height="224" rx="3" fill="url(#hC)"/>
-    <g transform="translate(30 28)">
-      <rect x="0" y="-2" width="120" height="30" rx="15" fill="url(#hC)"/>
-      <text x="16" y="18" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="1">CONNECT</text>
+  <g clip-path="url(#cl)">
+    <rect x="0" y="0" width="400" height="268" rx="20" fill="#ffffff" stroke="#f0e6df" filter="url(#sconnect)"/>
+    <circle cx="376" cy="20" r="58" fill="url(#aconnect)" opacity=".06"/>
+    <rect x="0" y="0" width="6" height="268" rx="3" fill="url(#aconnect)"/>
+    <g transform="translate(26 22)"><rect x="0" y="-2" width="83.19999999999999" height="26" rx="13" fill="url(#aconnect)"/><text x="15" y="16" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.4">CONNECT</text></g>
+    <g transform="translate(26 64)">
+      <rect width="30" height="30" rx="9" fill="url(#aconnect)" opacity=".12"/>
+      <g transform="translate(3 3)"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" fill="url(#aconnect)"/></g>
+      <text x="44" y="13" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#1f2937">GitHub</text>
+      <text x="44" y="26" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280">@iNathlan</text>
     </g>
-    <text x="30" y="80" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" fill="#475467">Reach out — let's build something.</text>
-
-    <!-- icon chips 2x3 -->
-    <g font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12.5" font-weight="700" fill="#1f2937">
-      <!-- GitHub -->
-      <g transform="translate(30 100)">
-        <rect x="0" y="0" width="42" height="42" rx="12" fill="url(#gG)"/>
-        <g transform="translate(21 21)" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round">
-          <circle cx="-7" cy="-6" r="2.4"/><circle cx="7" cy="-6" r="2.4"/><circle cx="0" cy="9" r="2.4"/>
-          <path d="M-7 -6 L0 9 L7 -6 M-7 -6 L-4 4 M7 -6 L4 4"/>
-        </g>
-        <text x="54" y="26" fill="#475467">GitHub</text>
-      </g>
-      <!-- X -->
-      <g transform="translate(216 100)">
-        <rect x="0" y="0" width="42" height="42" rx="12" fill="#1f2937"/>
-        <g transform="translate(21 21)" stroke="#fff" stroke-width="3" stroke-linecap="round"><line x1="-9" y1="-9" x2="9" y2="9"/><line x1="9" y1="-9" x2="-9" y2="9"/></g>
-        <text x="54" y="26" fill="#475467">X</text>
-      </g>
-      <!-- Instagram -->
-      <g transform="translate(30 156)">
-        <rect x="0" y="0" width="42" height="42" rx="12" fill="url(#gG)"/>
-        <g transform="translate(21 21)" stroke="#fff" stroke-width="2.4" fill="none">
-          <rect x="-11" y="-11" width="22" height="22" rx="6"/><circle cx="0" cy="0" r="6"/><circle cx="6" cy="-6" r="1.6" fill="#fff"/>
-        </g>
-        <text x="54" y="26" fill="#475467">Instagram</text>
-      </g>
-      <!-- YouTube -->
-      <g transform="translate(216 156)">
-        <rect x="0" y="0" width="42" height="42" rx="12" fill="#e0322f"/>
-        <g transform="translate(21 21)" fill="#fff"><rect x="-12" y="-8" width="24" height="16" rx="5"/><path d="M-3 -4 L6 0 L-3 4 Z" fill="#e0322f"/></g>
-        <text x="54" y="26" fill="#475467">YouTube</text>
-      </g>
+    <g transform="translate(26 96)">
+      <rect width="30" height="30" rx="9" fill="url(#aconnect)" opacity=".12"/>
+      <g transform="translate(3 3)"><path d="M17.53 3H20.5l-6.49 7.41L21.75 21h-6.06l-4.74-6.2L5.22 21H2.25l6.94-7.93L2.5 3h6.2l4.28 5.66L17.53 3Zm-1.06 16.2h1.7L7.6 4.72H5.79L16.47 19.2Z" fill="url(#aconnect)"/></g>
+      <text x="44" y="13" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#1f2937">X</text>
+      <text x="44" y="26" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280">@wenathlan</text>
+    </g>
+    <g transform="translate(26 128)">
+      <rect width="30" height="30" rx="9" fill="url(#aconnect)" opacity=".12"/>
+      <g transform="translate(3 3)"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42.82.68 1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16Zm0 1.62c-3.15 0-3.5.01-4.74.07-1.14.05-1.76.24-2.17.4a3.6 3.6 0 0 0-1.35.88 3.6 3.6 0 0 0-.88 1.35c-.16.41-.35 1.03-.4 2.17-.06 1.24-.07 1.59-.07 4.74s.01 3.5.07 4.74c.05 1.14.24 1.76.4 2.17.22.55.47.94.88 1.35.41.41.8.66 1.35.88.41.16 1.03.35 2.17.4 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c1.14-.05 1.76-.24 2.17-.4.55-.22.94-.47 1.35-.88.41-.41.66-.8.88-1.35.16-.41.35-1.03.4-2.17.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.05-1.14-.24-1.76-.4-2.17a3.64 3.64 0 0 0-.88-1.35 3.64 3.64 0 0 0-1.35-.88c-.41-.16-1.03-.35-2.17-.4-1.24-.06-1.59-.07-4.74-.07Zm0 2.76a5.46 5.46 0 1 1 0 10.92 5.46 5.46 0 0 1 0-10.92Zm0 1.62a3.84 3.84 0 1 0 0 7.68 3.84 3.84 0 0 0 0-7.68Zm5.65-2.52a1.28 1.28 0 1 1 0 2.56 1.28 1.28 0 0 1 0-2.56Z" fill="url(#aconnect)"/></g>
+      <text x="44" y="13" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#1f2937">Instagram</text>
+      <text x="44" y="26" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280">@wenathlan</text>
+    </g>
+    <g transform="translate(26 160)">
+      <rect width="30" height="30" rx="9" fill="url(#aconnect)" opacity=".12"/>
+      <g transform="translate(3 3)"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6S4.5 3.6 2.6 4.1A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.7 15.3V8.7l6.3 3.3Z" fill="url(#aconnect)"/></g>
+      <text x="44" y="13" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#1f2937">YouTube</text>
+      <text x="44" y="26" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280">@wenathlan</text>
+    </g>
+    <g transform="translate(26 192)">
+      <rect width="30" height="30" rx="9" fill="url(#aconnect)" opacity=".12"/>
+      <g transform="translate(3 3)"><path d="M4 2 3 6v13h4v3h3l3-3h4l5-5V2H4Z M7 5h2v5H7z M13 5h2v5h-2z" fill="url(#aconnect)"/></g>
+      <text x="44" y="13" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#1f2937">Twitch</text>
+      <text x="44" y="26" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280">@wenathlan</text>
+    </g>
+    <g transform="translate(26 224)">
+      <rect width="30" height="30" rx="9" fill="url(#aconnect)" opacity=".12"/>
+      <g transform="translate(3 3)"><path d="M12 10.2C10.8 7 7.6 4.6 4.6 4.4c-1.2-.1-2.4 1-2.4 2.8 0 1 .5 8 3 8.8 1 .4 2-.3 2.6-1.2-.7 3 .8 4.7 3.2 4.7s2.5-1.7 3.2-4.7c.6.9 1.6 1.6 2.6 1.2 2.5-.8 3-7.8 3-8.8 0-1.8-1.2-2.9-2.4-2.8-3 .2-6.2 2.6-7.4 5.8Z" fill="url(#aconnect)"/></g>
+      <text x="44" y="13" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#1f2937">Bluesky</text>
+      <text x="44" y="26" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280">@wenathlan</text>
     </g>
   </g>
 </svg>

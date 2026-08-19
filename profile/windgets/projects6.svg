@@ -1,20 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="138" viewBox="0 0 400 138" role="img" aria-label="Venture Lab">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="156" viewBox="0 0 400 156" role="img">
   <defs>
-    <linearGradient id="bv6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
-    <filter id="shp6" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0b3a66" flood-opacity="0.10"/></filter>
-    <clipPath id="cp6"><rect x="6" y="6" width="388" height="126" rx="16"/></clipPath>
+    <linearGradient id="ap6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4430c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <linearGradient id="bp6" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
+    <filter id="sp6" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#5a2a00" flood-opacity="0.12"/></filter>
+    <clipPath id="cl"><rect x="0" y="0" width="400" height="156" rx="20"/></clipPath>
   </defs>
-  <g clip-path="url(#cp6)">
-    <rect x="6" y="6" width="388" height="126" rx="16" fill="#ffffff" stroke="#e3eefa" filter="url(#shp6)"/>
-    <g transform="translate(26 33)">
-      <rect x="0" y="0" width="72" height="72" rx="18" fill="url(#bv6)"/>
-      <g transform="translate(36 40)" fill="#fff"><path d="M0 -26 C8 -10 8 -6 20 -6 C14 2 5 2 0 18 C-5 2 -14 2 -20 -6 C-8 -6 -8 -10 0 -26 Z"/><circle cx="-11" cy="16" r="3"/><circle cx="11" cy="16" r="3"/></g>
-    </g>
-    <text x="118" y="50" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="19" font-weight="800" fill="#1f2937">Venture Lab</text>
-    <text x="118" y="74" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" fill="#475467">R&amp;D studio for new bets</text>
-    <text x="118" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#9aa1ad">Next.js · Supabase · Vercel</text>
-    <rect x="118" y="106" width="240" height="4" rx="2" fill="#e3eefa"/>
-    <rect x="118" y="106" width="200" height="4" rx="2" fill="url(#bv6)"><animate attributeName="width" values="200;155;200" dur="4.2s" repeatCount="indefinite"/></rect>
-    <text x="356" y="34" text-anchor="end" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0b5cad">06</text>
+  <g clip-path="url(#cl)">
+    <rect x="0" y="0" width="400" height="156" rx="20" fill="#ffffff" stroke="#f0e6df" filter="url(#sp6)"/>
+    <circle cx="376" cy="20" r="58" fill="url(#ap6)" opacity=".06"/>
+    <rect x="0" y="0" width="6" height="156" rx="3" fill="url(#ap6)"/>
+    <g transform="translate(26 22)"><rect x="0" y="-2" width="106" height="26" rx="13" fill="url(#ap6)"/><text x="15" y="16" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.4">PROJECT 06</text></g>
+    <text x="26" y="70" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="18" font-weight="800" fill="#1f2937">Venture Lab</text>
+    <g transform="translate(336 44)"><rect width="40" height="40" rx="12" fill="url(#ap6)"/><path transform="translate(8 8)" d="M14 3c-4 1-7 5-7 10v5l3-2 2 3 2-3 3 2v-5c0-5-3-9-7-10z M12 9.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" fill="#ffffff"/></g>
+    <text x="26" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">Our incubator: shipping side</text>
+    <text x="26" y="112" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">projects into real products.</text>
+    <rect x="26" y="130" width="300" height="6" rx="3" fill="#f0e6df"/>
+    <rect x="26" y="130" height="6" rx="3" fill="url(#bp6)"><animate attributeName="width" values="0;189;189" dur="1.4s" fill="freeze"/><animate attributeName="width" values="189;197;189" dur="3.2s" repeatCount="indefinite" begin="1.4s"/></rect>
+    <text x="332" y="136" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#9a3412">63%</text>
   </g>
 </svg>

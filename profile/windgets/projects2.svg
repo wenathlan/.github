@@ -1,24 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="138" viewBox="0 0 400 138" role="img" aria-label="OpenDeck">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="156" viewBox="0 0 400 156" role="img">
   <defs>
-    <linearGradient id="bv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
-    <filter id="shp2" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0b3a66" flood-opacity="0.10"/></filter>
-    <clipPath id="cp2"><rect x="6" y="6" width="388" height="126" rx="16"/></clipPath>
+    <linearGradient id="ap2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4430c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <linearGradient id="bp2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
+    <filter id="sp2" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#5a2a00" flood-opacity="0.12"/></filter>
+    <clipPath id="cl"><rect x="0" y="0" width="400" height="156" rx="20"/></clipPath>
   </defs>
-  <g clip-path="url(#cp2)">
-    <rect x="6" y="6" width="388" height="126" rx="16" fill="#ffffff" stroke="#e3eefa" filter="url(#shp2)"/>
-    <g transform="translate(26 33)">
-      <rect x="0" y="0" width="72" height="72" rx="18" fill="url(#bv)"/>
-      <g transform="translate(36 36)" fill="#fff">
-        <rect x="-22" y="10" width="44" height="9" rx="4.5" opacity="0.55"/>
-        <rect x="-15" y="-2" width="30" height="9" rx="4.5" opacity="0.8"/>
-        <rect x="-8" y="-14" width="16" height="9" rx="4.5"/>
-      </g>
-    </g>
-    <text x="118" y="50" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="19" font-weight="800" fill="#1f2937">OpenDeck</text>
-    <text x="118" y="74" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" fill="#475467">Open dev stack · CLI &amp; pipelines</text>
-    <text x="118" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#9aa1ad">Node · Python · Docker · Make</text>
-    <rect x="118" y="106" width="240" height="4" rx="2" fill="#e3eefa"/>
-    <rect x="118" y="106" width="200" height="4" rx="2" fill="url(#bv)"><animate attributeName="width" values="200;150;200" dur="3.8s" repeatCount="indefinite"/></rect>
-    <text x="356" y="34" text-anchor="end" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0b5cad">02</text>
+  <g clip-path="url(#cl)">
+    <rect x="0" y="0" width="400" height="156" rx="20" fill="#ffffff" stroke="#f0e6df" filter="url(#sp2)"/>
+    <circle cx="376" cy="20" r="58" fill="url(#ap2)" opacity=".06"/>
+    <rect x="0" y="0" width="6" height="156" rx="3" fill="url(#ap2)"/>
+    <g transform="translate(26 22)"><rect x="0" y="-2" width="106" height="26" rx="13" fill="url(#ap2)"/><text x="15" y="16" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.4">PROJECT 02</text></g>
+    <text x="26" y="70" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="18" font-weight="800" fill="#1f2937">OpenDeck</text>
+    <g transform="translate(336 44)"><rect width="40" height="40" rx="12" fill="url(#ap2)"/><path transform="translate(8 8)" d="M4 8h11a2 2 0 0 1 2 2v7H6a2 2 0 0 1-2-2V8Zm3-3h11a2 2 0 0 1 2 2v8" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="26" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">Self-hosted app & service launcher</text>
+    <text x="26" y="112" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">with a glassy, fast UI.</text>
+    <rect x="26" y="130" width="300" height="6" rx="3" fill="#f0e6df"/>
+    <rect x="26" y="130" height="6" rx="3" fill="url(#bp2)"><animate attributeName="width" values="0;243;243" dur="1.4s" fill="freeze"/><animate attributeName="width" values="243;251;243" dur="3.2s" repeatCount="indefinite" begin="1.4s"/></rect>
+    <text x="332" y="136" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#9a3412">81%</text>
   </g>
 </svg>

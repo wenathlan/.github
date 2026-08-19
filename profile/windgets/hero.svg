@@ -1,88 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Nathlan Bros">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Nathlan Bros">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fff7f2"/>
-      <stop offset=".5" stop-color="#fdf3ee"/>
-      <stop offset="1" stop-color="#eef4fb"/>
-    </linearGradient>
-    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#fb923c"/>
-      <stop offset=".5" stop-color="#d4430c"/>
-      <stop offset="1" stop-color="#0b5cad"/>
-    </linearGradient>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox" spreadMethod="reflect">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#ffffff" stop-opacity=".55"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="orbO" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#ffb27a"/><stop offset="1" stop-color="#d4430c"/>
-    </radialGradient>
-    <radialGradient id="orbB" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#0b5cad"/>
-    </radialGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#1b2a4a" flood-opacity="0.10"/></filter>
-    <clipPath id="clip"><rect width="900" height="260" rx="28"/></clipPath>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fff6f1"/></linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4430c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <radialGradient id="orbO"><stop offset="0" stop-color="#d4430c" stop-opacity=".55"/><stop offset="1" stop-color="#d4430c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbB"><stop offset="0" stop-color="#0b5cad" stop-opacity=".5"/><stop offset="1" stop-color="#0b5cad" stop-opacity="0"/></radialGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#5a2a00" flood-opacity="0.12"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/></filter>
+    <clipPath id="card"><rect x="0" y="0" width="900" height="300" rx="28"/></clipPath>
   </defs>
-
-  <g clip-path="url(#clip)">
-    <rect width="900" height="260" fill="url(#bg)"/>
-
-    <!-- animated orbs -->
-    <g filter="url(#blur)" opacity="0.5">
-      <circle cx="140" cy="70" r="60" fill="url(#orbO)">
-        <animateTransform attributeName="transform" type="translate" values="0 0; 18 -14; 0 0" dur="9s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="780" cy="200" r="80" fill="url(#orbB)">
-        <animateTransform attributeName="transform" type="translate" values="0 0; -20 16; 0 0" dur="11s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="700" cy="50" r="30" fill="url(#orbO)" opacity="0.8">
-        <animateTransform attributeName="transform" type="translate" values="0 0; 10 18; 0 0" dur="7s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-
-    <!-- grid -->
-    <g stroke="#0b5cad" stroke-opacity="0.06" stroke-width="1">
-      <line x1="0" y1="86" x2="900" y2="86"/>
-      <line x1="300" y1="0" x2="300" y2="260"/>
-      <line x1="600" y1="0" x2="600" y2="260"/>
-    </g>
-
-    <g filter="url(#soft)"><rect x="36" y="36" width="828" height="188" rx="20" fill="#ffffff" fill-opacity="0.82"/></g>
-
-    <!-- wordmark with shimmer -->
-    <g>
-      <text x="70" y="135" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5" fill="url(#brand)">Nathlan Bros
-        <animate attributeName="opacity" values="1;1;0.92;1" dur="4s" repeatCount="indefinite"/>
-      </text>
-      <rect x="70" y="92" width="430" height="58" fill="url(#sweep)" opacity="0.0">
-        <animate attributeName="x" values="70;500;70" dur="5s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;.8;0" dur="5s" repeatCount="indefinite"/>
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="900" height="300" rx="28" fill="url(#wall)" stroke="#f0e6df" filter="url(#sh)"/>
+    <path d="M640 -40 C 800 -40 970 60 920 210 C 890 310 740 305 670 280 C 580 248 560 110 600 40 C 620 -5 640 -40 640 -40 Z" fill="url(#acc)" opacity=".12">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="724" cy="86" r="58" fill="url(#orbO)"><animateTransform attributeName="transform" type="translate" values="0 0;0 16;0 0" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="812" cy="206" r="42" fill="url(#orbB)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="7.5s" repeatCount="indefinite"/></circle>
+    <path d="M40 232 Q 250 206 470 232 T 700 226" stroke="url(#acc)" stroke-width="3" fill="none" stroke-linecap="round" opacity=".45"/>
+    <text x="48" y="132" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="50" font-weight="800" fill="url(#acc)" letter-spacing="-0.5">Nathlan Bros</text>
+    <rect x="50" y="146" width="118" height="4" rx="2" fill="url(#acc)"/>
+    <text x="50" y="176" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="16" font-weight="600" fill="#6b7280">Solutions&#160;·&#160;Engineering&#160;·&#160;Ventures</text>
+    <text x="50" y="216" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="15" font-weight="600" fill="#1f2937">Architecting tomorrow&rsquo;s technology, today.</text>
+    <g opacity=".2">
+      <rect x="-360" y="-80" width="150" height="470" fill="#ffffff" transform="rotate(16 450 150)">
+        <animate attributeName="x" values="-400;1100" dur="8s" repeatCount="indefinite"/>
       </rect>
     </g>
-
-    <text x="72" y="170" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="17" font-weight="500" fill="#475467">Solutions · Engineering · Ventures · Research</text>
-
-    <!-- pill chips -->
-    <g font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12.5" font-weight="600">
-      <g>
-        <rect x="72" y="186" width="92" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
-        <circle cx="89" cy="201" r="3.5" fill="#d4430c"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
-        <text x="100" y="205" fill="#9a3412">Audio AI</text>
-      </g>
-      <g>
-        <rect x="176" y="186" width="104" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
-        <circle cx="193" cy="201" r="3.5" fill="#0b5cad"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
-        <text x="204" y="205" fill="#0b4a8a">Open Source</text>
-      </g>
-    </g>
-
-    <!-- spark -->
-    <g transform="translate(796 86)" fill="none" stroke="#d4430c" stroke-width="3" stroke-linecap="round">
-      <path d="M0 16 L16 0 L24 18 L10 14 Z" fill="url(#orbO)" stroke="none">
-        <animateTransform attributeName="transform" type="rotate" values="0 12 12;12 12 12;0 12 12" dur="6s" repeatCount="indefinite"/>
-      </path>
-    </g>
+    <rect x="0" y="0" width="900" height="300" fill="#ffffff" opacity=".05" filter="url(#grain)"/>
   </g>
 </svg>

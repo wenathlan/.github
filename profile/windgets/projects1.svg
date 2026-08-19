@@ -1,42 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="230" viewBox="0 0 820 230" role="img" aria-label="Project: AudioForge">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="138" viewBox="0 0 400 138" role="img" aria-label="AudioForge">
   <defs>
-    <linearGradient id="ov" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fb923c"/>
-      <stop offset="1" stop-color="#d4430c"/>
-    </linearGradient>
-    <filter id="sh1" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#7a2a00" flood-opacity="0.10"/>
-    </filter>
+    <linearGradient id="ov" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
+    <filter id="shp" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#7a2a00" flood-opacity="0.10"/></filter>
+    <clipPath id="cp"><rect x="6" y="6" width="388" height="126" rx="16"/></clipPath>
   </defs>
-  <rect x="8" y="8" width="804" height="214" rx="22" fill="#ffffff" stroke="#f0e6df" filter="url(#sh1)"/>
-
-  <!-- visual block -->
-  <g transform="translate(40 47)">
-    <rect x="0" y="0" width="120" height="120" rx="26" fill="url(#ov)"/>
-    <g transform="translate(60 60)" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round">
-      <line x1="-22" y1="0" x2="22" y2="0"/>
-      <line x1="-14" y1="-16" x2="14" y2="16"/>
-      <line x1="-14" y1="16" x2="14" y2="-16"/>
-      <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="none"/>
+  <g clip-path="url(#cp)">
+    <rect x="6" y="6" width="388" height="126" rx="16" fill="#ffffff" stroke="#f0e6df" filter="url(#shp)"/>
+    <g transform="translate(26 33)">
+      <rect x="0" y="0" width="72" height="72" rx="18" fill="url(#ov)"/>
+      <g transform="translate(36 36)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round">
+        <line x1="-18" y1="0" x2="18" y2="0"/><line x1="-11" y1="-13" x2="11" y2="13"/><line x1="-11" y1="13" x2="11" y2="-13"/>
+      </g>
     </g>
+    <text x="118" y="50" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="19" font-weight="800" fill="#1f2937">AudioForge</text>
+    <text x="118" y="74" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" fill="#475467">Real-time audio toolkit · DSP &amp; FX</text>
+    <text x="118" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#9aa1ad">TS · Rust · WebAudio · WASM</text>
+    <rect x="118" y="106" width="240" height="4" rx="2" fill="#f0e6df"/>
+    <rect x="118" y="106" width="170" height="4" rx="2" fill="url(#ov)"><animate attributeName="width" values="170;210;170" dur="3.5s" repeatCount="indefinite"/></rect>
+    <text x="356" y="34" text-anchor="end" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#d4430c">01</text>
   </g>
-
-  <g transform="translate(196 56)">
-    <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="800" fill="#1f2937">AudioForge</text>
-    <text x="0" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">Real-time audio toolkit — DSP, effects &amp; streaming.</text>
-    <text x="0" y="52" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">Low-latency engine for creators and products.</text>
-  </g>
-
-  <g transform="translate(196 138)" font-family="'Segoe UI', system-ui, sans-serif" font-size="12.5" font-weight="600">
-    <rect x="0" y="0" width="74" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
-    <text x="14" y="20" fill="#9a3412">TypeScript</text>
-    <rect x="86" y="0" width="56" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
-    <text x="100" y="20" fill="#0b4a8a">Rust</text>
-    <rect x="156" y="0" width="64" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
-    <text x="170" y="20" fill="#9a3412">WebAudio</text>
-    <rect x="234" y="0" width="58" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
-    <text x="248" y="20" fill="#0b4a8a">WASM</text>
-  </g>
-
-  <text x="760" y="44" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="700" fill="#d4430c">01 / 06</text>
 </svg>

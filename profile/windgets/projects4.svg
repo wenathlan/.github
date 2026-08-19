@@ -1,43 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="230" viewBox="0 0 820 230" role="img" aria-label="Project: PulseAI">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="138" viewBox="0 0 400 138" role="img" aria-label="PulseAI">
   <defs>
-    <linearGradient id="bv4" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5ab0ff"/>
-      <stop offset="1" stop-color="#0b5cad"/>
-    </linearGradient>
-    <filter id="sh4" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0b3a66" flood-opacity="0.10"/>
-    </filter>
+    <linearGradient id="bv4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <filter id="shp4" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0b3a66" flood-opacity="0.10"/></filter>
+    <clipPath id="cp4"><rect x="6" y="6" width="388" height="126" rx="16"/></clipPath>
   </defs>
-  <rect x="8" y="8" width="804" height="214" rx="22" fill="#ffffff" stroke="#e3eefa" filter="url(#sh4)"/>
-
-  <g transform="translate(40 47)">
-    <rect x="0" y="0" width="120" height="120" rx="26" fill="url(#bv4)"/>
-    <g transform="translate(60 60)" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none">
-      <line x1="-30" y1="0" x2="-20" y2="0"/>
-      <line x1="-14" y1="-18" x2="-14" y2="18"/>
-      <line x1="-2" y1="-30" x2="-2" y2="30"/>
-      <line x1="10" y1="-12" x2="10" y2="12"/>
-      <line x1="22" y1="-22" x2="22" y2="22"/>
-      <line x1="32" y1="0" x2="42" y2="0"/>
+  <g clip-path="url(#cp4)">
+    <rect x="6" y="6" width="388" height="126" rx="16" fill="#ffffff" stroke="#e3eefa" filter="url(#shp4)"/>
+    <g transform="translate(26 33)">
+      <rect x="0" y="0" width="72" height="72" rx="18" fill="url(#bv4)"/>
+      <g transform="translate(36 36)" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none">
+        <line x1="-22" y1="0" x2="-14" y2="0"/><line x1="-9" y1="-14" x2="-9" y2="14"/>
+        <line x1="0" y1="-22" x2="0" y2="22"/><line x1="9" y1="-9" x2="9" y2="9"/>
+        <line x1="18" y1="-16" x2="18" y2="16"/><line x1="24" y1="0" x2="32" y2="0"/>
+      </g>
     </g>
+    <text x="118" y="50" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="19" font-weight="800" fill="#1f2937">PulseAI</text>
+    <text x="118" y="74" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" fill="#475467">Speech &amp; audio intelligence</text>
+    <text x="118" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#9aa1ad">PyTorch · ONNX · CUDA</text>
+    <rect x="118" y="106" width="240" height="4" rx="2" fill="#e3eefa"/>
+    <rect x="118" y="106" width="210" height="4" rx="2" fill="url(#bv4)"><animate attributeName="width" values="210;160;210" dur="4s" repeatCount="indefinite"/></rect>
+    <text x="356" y="34" text-anchor="end" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#0b5cad">04</text>
   </g>
-
-  <g transform="translate(196 56)">
-    <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="800" fill="#1f2937">PulseAI</text>
-    <text x="0" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">Speech &amp; audio intelligence models.</text>
-    <text x="0" y="52" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">Transcription, separation and understanding.</text>
-  </g>
-
-  <g transform="translate(196 138)" font-family="'Segoe UI', system-ui, sans-serif" font-size="12.5" font-weight="600">
-    <rect x="0" y="0" width="78" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
-    <text x="14" y="20" fill="#0b4a8a">PyTorch</text>
-    <rect x="90" y="0" width="74" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
-    <text x="104" y="20" fill="#9a3412">Python</text>
-    <rect x="178" y="0" width="70" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
-    <text x="192" y="20" fill="#0b4a8a">ONNX</text>
-    <rect x="262" y="0" width="66" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
-    <text x="276" y="20" fill="#9a3412">CUDA</text>
-  </g>
-
-  <text x="760" y="44" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0b5cad">04 / 06</text>
 </svg>

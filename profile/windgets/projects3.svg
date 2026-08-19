@@ -1,39 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="230" viewBox="0 0 820 230" role="img" aria-label="Project: Lumen UI">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="138" viewBox="0 0 400 138" role="img" aria-label="Lumen UI">
   <defs>
-    <linearGradient id="ov3" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fb923c"/>
-      <stop offset="1" stop-color="#d4430c"/>
-    </linearGradient>
-    <filter id="sh3" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#7a2a00" flood-opacity="0.10"/>
-    </filter>
+    <linearGradient id="ov3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
+    <filter id="shp3" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#7a2a00" flood-opacity="0.10"/></filter>
+    <clipPath id="cp3"><rect x="6" y="6" width="388" height="126" rx="16"/></clipPath>
   </defs>
-  <rect x="8" y="8" width="804" height="214" rx="22" fill="#ffffff" stroke="#f0e6df" filter="url(#sh3)"/>
-
-  <g transform="translate(40 47)">
-    <rect x="0" y="0" width="120" height="120" rx="26" fill="url(#ov3)"/>
-    <g transform="translate(60 60)">
-      <circle cx="0" cy="0" r="30" fill="#ffffff"/>
-      <path d="M0 -30 A30 30 0 0 1 0 30 Z" fill="#d4430c"/>
+  <g clip-path="url(#cp3)">
+    <rect x="6" y="6" width="388" height="126" rx="16" fill="#ffffff" stroke="#f0e6df" filter="url(#shp3)"/>
+    <g transform="translate(26 33)">
+      <rect x="0" y="0" width="72" height="72" rx="18" fill="url(#ov3)"/>
+      <g transform="translate(36 36)"><circle r="22" fill="#fff"/><path d="M0 -22 A22 22 0 0 1 0 22 Z" fill="#d4430c"/></g>
     </g>
+    <text x="118" y="50" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="19" font-weight="800" fill="#1f2937">Lumen UI</text>
+    <text x="118" y="74" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" fill="#475467">Design system · accessible comps</text>
+    <text x="118" y="96" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#9aa1ad">React · Tailwind · Figma</text>
+    <rect x="118" y="106" width="240" height="4" rx="2" fill="#f0e6df"/>
+    <rect x="118" y="106" width="190" height="4" rx="2" fill="url(#ov3)"><animate attributeName="width" values="190;230;190" dur="3.2s" repeatCount="indefinite"/></rect>
+    <text x="356" y="34" text-anchor="end" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#d4430c">03</text>
   </g>
-
-  <g transform="translate(196 56)">
-    <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="800" fill="#1f2937">Lumen UI</text>
-    <text x="0" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">Accessible design system &amp; component library.</text>
-    <text x="0" y="52" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">Tokens, dark mode and motion done right.</text>
-  </g>
-
-  <g transform="translate(196 138)" font-family="'Segoe UI', system-ui, sans-serif" font-size="12.5" font-weight="600">
-    <rect x="0" y="0" width="64" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
-    <text x="14" y="20" fill="#9a3412">React</text>
-    <rect x="74" y="0" width="66" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
-    <text x="88" y="20" fill="#0b4a8a">Tailwind</text>
-    <rect x="156" y="0" width="60" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
-    <text x="170" y="20" fill="#9a3412">Figma</text>
-    <rect x="230" y="0" width="66" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
-    <text x="244" y="20" fill="#0b4a8a">Storybook</text>
-  </g>
-
-  <text x="760" y="44" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="700" fill="#d4430c">03 / 06</text>
 </svg>

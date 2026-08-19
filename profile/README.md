@@ -2,11 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/hero.svg" width="900"/>
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=1000&color=d4430c&center=true&vCenter=true&repeat=true&width=640&height=42&lines=Nathlan+Bros+%7C+Solutions+%7C+Engineering+%7C+Ventures;Audio+AI+%7C+Open+Source+%7C+Design+%7C+DevStack;Architecting+tomorrow's+technology+today" alt="Typing"/>
-
-<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=1000&color=e8521c&center=true&vCenter=true&repeat=true&width=640&height=42&lines=Nathlan+Bros+%7C+Solutions+%7C+Engineering+%7C+Ventures;Audio+AI+%7C+Open+Source+%7C+Design+%7C+DevStack;Architecting+tomorrow's+technology+today" alt="Typing"/>
 
 <a href="https://github.com/iNathlan"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://x.com/wenathlan"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
@@ -17,18 +13,22 @@
 
 </div>
 
-<br>
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/architecture.svg" width="820"/>
+
+</div>
 
 <div align="center">
+
 <h3>✦ WHO WE ARE ✦</h3>
 
 <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/whoami.svg" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/status.svg" width="400"/>
 
 </div>
 
-<br>
-
 <div align="center">
+
 <h3>✦ TECH STACK ✦</h3>
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,vue,svelte,html,css,tailwind&theme=light&perline=7"/>
@@ -41,9 +41,8 @@
 
 </div>
 
-<br>
-
 <div align="center">
+
 <h3>✦ PROJECTS ✦</h3>
 
 <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects1.svg" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects2.svg" width="400"/>
@@ -54,31 +53,21 @@
 
 </div>
 
-<br>
-
 <div align="center">
+
 <h3>✦ TEAM &amp; CONNECT ✦</h3>
 
 <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/team.svg" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/connect.svg" width="400"/>
 
 </div>
 
-<br>
-
 <div align="center">
+
 <h3>✦ LANGUAGES ✦</h3>
 
 <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/stats.svg" width="400"/>
 
-<br><br>
-
-<h3>✦ CONTRIBUTIONS ✦</h3>
-
 <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/contributions.svg" width="820"/>
-
-<br><br>
-
-<h3>✦ AWARDS ✦</h3>
 
 <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/awards.svg" width="820"/>
 

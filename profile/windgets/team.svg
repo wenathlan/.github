@@ -1,58 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="280" viewBox="0 0 820 280" role="img" aria-label="Team">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180" role="img" aria-label="Team">
   <defs>
-    <linearGradient id="hT" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#fb923c"/>
-      <stop offset="1" stop-color="#0b5cad"/>
-    </linearGradient>
-    <filter id="shT" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#5a2a00" flood-opacity="0.10"/>
-    </filter>
-    <linearGradient id="av1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/>
-    </linearGradient>
-    <linearGradient id="av2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#0b5cad"/>
-    </linearGradient>
-    <linearGradient id="av3" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffb27a"/><stop offset="1" stop-color="#fb923c"/>
-    </linearGradient>
+    <linearGradient id="hT" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <linearGradient id="a1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
+    <linearGradient id="a2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <linearGradient id="a3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb27a"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
+    <filter id="shT" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#5a2a00" flood-opacity="0.10"/></filter>
+    <clipPath id="ct"><rect x="6" y="6" width="388" height="168" rx="18"/></clipPath>
   </defs>
-
-  <rect x="8" y="8" width="804" height="264" rx="24" fill="#ffffff" stroke="#eee2db" filter="url(#shT)"/>
-  <rect x="8" y="8" width="6" height="264" rx="3" fill="url(#hT)"/>
-
-  <g transform="translate(40 44)">
-    <rect x="0" y="-2" width="140" height="38" rx="19" fill="url(#hT)"/>
-    <text x="22" y="24" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="1.5">TEAM</text>
-  </g>
-
-  <text x="40" y="104" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">A small, senior crew across engineering, design and research.</text>
-
-  <!-- avatars -->
-  <g font-family="'Segoe UI', system-ui, sans-serif" text-anchor="middle">
-    <g transform="translate(110 200)">
-      <circle cx="0" cy="0" r="34" fill="url(#av1)"/>
-      <text x="0" y="6" font-size="20" font-weight="800" fill="#ffffff">NA</text>
-      <text x="0" y="58" font-size="14" font-weight="700" fill="#1f2937">Nathalan</text>
-      <text x="0" y="78" font-size="12.5" fill="#6b7280">Founder · Eng</text>
+  <g clip-path="url(#ct)">
+    <rect x="6" y="6" width="388" height="168" rx="18" fill="#ffffff" stroke="#eee2db" filter="url(#shT)"/>
+    <rect x="6" y="6" width="6" height="168" rx="3" fill="url(#hT)"/>
+    <g transform="translate(30 28)">
+      <rect x="0" y="-2" width="90" height="30" rx="15" fill="url(#hT)"/>
+      <text x="16" y="18" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="1">TEAM</text>
     </g>
-    <g transform="translate(290 200)">
-      <circle cx="0" cy="0" r="34" fill="url(#av2)"/>
-      <text x="0" y="6" font-size="20" font-weight="800" fill="#ffffff">RD</text>
-      <text x="0" y="58" font-size="14" font-weight="700" fill="#1f2937">R. Dias</text>
-      <text x="0" y="78" font-size="12.5" fill="#6b7280">Research</text>
-    </g>
-    <g transform="translate(470 200)">
-      <circle cx="0" cy="0" r="34" fill="url(#av3)"/>
-      <text x="0" y="6" font-size="20" font-weight="800" fill="#ffffff">LM</text>
-      <text x="0" y="58" font-size="14" font-weight="700" fill="#1f2937">L. Moreau</text>
-      <text x="0" y="78" font-size="12.5" fill="#6b7280">Design</text>
-    </g>
-    <g transform="translate(650 200)">
-      <circle cx="0" cy="0" r="34" fill="url(#av2)"/>
-      <text x="0" y="6" font-size="20" font-weight="800" fill="#ffffff">+U</text>
-      <text x="0" y="58" font-size="14" font-weight="700" fill="#1f2937">You?</text>
-      <text x="0" y="78" font-size="12.5" fill="#6b7280">Open roles</text>
+    <text x="30" y="78" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" fill="#475467">Senior crew — eng, design &amp; research.</text>
+    <g text-anchor="middle" font-family="'Inter','Segoe UI',system-ui,sans-serif">
+      <g transform="translate(96 138)">
+        <circle r="26" fill="url(#a1)"><animate attributeName="r" values="26;28;26" dur="3s" repeatCount="indefinite"/></circle>
+        <text y="5" font-size="15" font-weight="800" fill="#fff">NB</text>
+        <text y="46" font-size="11.5" font-weight="700" fill="#1f2937">Nathalan</text>
+      </g>
+      <g transform="translate(200 138)">
+        <circle r="26" fill="url(#a2)"><animate attributeName="r" values="26;28;26" dur="3.4s" repeatCount="indefinite"/></circle>
+        <text y="5" font-size="15" font-weight="800" fill="#fff">RD</text>
+        <text y="46" font-size="11.5" font-weight="700" fill="#1f2937">R. Dias</text>
+      </g>
+      <g transform="translate(304 138)">
+        <circle r="26" fill="url(#a3)"><animate attributeName="r" values="26;28;26" dur="3.8s" repeatCount="indefinite"/></circle>
+        <text y="5" font-size="14" font-weight="800" fill="#fff">+U</text>
+        <text y="46" font-size="11.5" font-weight="700" fill="#1f2937">You?</text>
+      </g>
     </g>
   </g>
 </svg>

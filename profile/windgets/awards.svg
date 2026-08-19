@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="124" viewBox="0 0 820 124" role="img" aria-label="Awards">
-  <rect x="0.5" y="0.5" width="819" height="123" fill="#ffffff" stroke="#e8e4df"/>
-  <rect x="0" y="0" width="4" height="124" fill="#e8521c"/>
-  
-  <text x="18" y="25" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="1.6" fill="#16130f">AWARDS</text>
-  <g font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" text-anchor="middle">
-    <g transform="translate(205 72)"><path d="M-11 -20 L-4 4 L4 4 L11 -20 Z" fill="#e8521c"/><circle r="20" fill="#e8521c"/><text y="6" font-size="15" font-weight="800" fill="#fff">&#9733;</text><text y="44" font-size="11.5" font-weight="700" fill="#16130f">Top Contributor</text></g>
-    <g transform="translate(410 72)"><path d="M-11 -20 L-4 4 L4 4 L11 -20 Z" fill="#16130f"/><circle r="20" fill="#16130f"/><text y="6" font-size="15" font-weight="800" fill="#fff">&#9733;</text><text y="44" font-size="11.5" font-weight="700" fill="#16130f">Star Gazer</text></g>
-    <g transform="translate(615 72)"><path d="M-11 -20 L-4 4 L4 4 L11 -20 Z" fill="#c9893f"/><circle r="20" fill="#c9893f"/><text y="6" font-size="15" font-weight="800" fill="#fff">&#9733;</text><text y="44" font-size="11.5" font-weight="700" fill="#16130f">Open Source</text></g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="118" viewBox="0 0 820 118" role="img"><rect x="0.5" y="0.5" width="819" height="117" fill="#ffffff" stroke="#e8e4df"/><rect x="0" y="0" width="4" height="118" fill="#e8521c"/><text x="18" y="25" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="1.6" fill="#16130f">AWARDS</text><text x="136.66666666666666" y="74" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="14" font-weight="800" fill="#16130f" text-anchor="middle">&#9733; Top Contributor</text><text x="410" y="74" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="14" font-weight="800" fill="#16130f" text-anchor="middle">&#9733; Star Gazer</text><text x="683.3333333333333" y="74" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="14" font-weight="800" fill="#16130f" text-anchor="middle">&#9733; Open Source</text></svg>

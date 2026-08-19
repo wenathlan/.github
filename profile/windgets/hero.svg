@@ -1,30 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Nathlan Bros">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-label="Nathlan Bros">
   <defs>
-    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fff6f1"/></linearGradient>
-    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4430c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
-    <radialGradient id="orbO"><stop offset="0" stop-color="#d4430c" stop-opacity=".55"/><stop offset="1" stop-color="#d4430c" stop-opacity="0"/></radialGradient>
-    <radialGradient id="orbB"><stop offset="0" stop-color="#0b5cad" stop-opacity=".5"/><stop offset="1" stop-color="#0b5cad" stop-opacity="0"/></radialGradient>
-    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#5a2a00" flood-opacity="0.12"/></filter>
-    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/></filter>
-    <clipPath id="card"><rect x="0" y="0" width="900" height="300" rx="28"/></clipPath>
+    <clipPath id="cl"><rect x="0" y="0" width="900" height="190"/></clipPath>
+    <path id="cut" d="M900 0 L900 190 L560 190 C 640 150 640 50 720 0 Z"/>
   </defs>
-  <g clip-path="url(#card)">
-    <rect x="0" y="0" width="900" height="300" rx="28" fill="url(#wall)" stroke="#f0e6df" filter="url(#sh)"/>
-    <path d="M640 -40 C 800 -40 970 60 920 210 C 890 310 740 305 670 280 C 580 248 560 110 600 40 C 620 -5 640 -40 640 -40 Z" fill="url(#acc)" opacity=".12">
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="9s" repeatCount="indefinite"/>
-    </path>
-    <circle cx="724" cy="86" r="58" fill="url(#orbO)"><animateTransform attributeName="transform" type="translate" values="0 0;0 16;0 0" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="812" cy="206" r="42" fill="url(#orbB)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="7.5s" repeatCount="indefinite"/></circle>
-    <path d="M40 232 Q 250 206 470 232 T 700 226" stroke="url(#acc)" stroke-width="3" fill="none" stroke-linecap="round" opacity=".45"/>
-    <text x="48" y="132" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="50" font-weight="800" fill="url(#acc)" letter-spacing="-0.5">Nathlan Bros</text>
-    <rect x="50" y="146" width="118" height="4" rx="2" fill="url(#acc)"/>
-    <text x="50" y="176" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="16" font-weight="600" fill="#6b7280">Solutions&#160;·&#160;Engineering&#160;·&#160;Ventures</text>
-    <text x="50" y="216" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="15" font-weight="600" fill="#1f2937">Architecting tomorrow&rsquo;s technology, today.</text>
-    <g opacity=".2">
-      <rect x="-360" y="-80" width="150" height="470" fill="#ffffff" transform="rotate(16 450 150)">
-        <animate attributeName="x" values="-400;1100" dur="8s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <rect x="0" y="0" width="900" height="300" fill="#ffffff" opacity=".05" filter="url(#grain)"/>
+  <g clip-path="url(#cl)">
+    <rect x="0" y="0" width="900" height="190" fill="#ffffff"/>
+    <use href="#cut" fill="#e8521c"/>
+    <use href="#cut" fill="#16130f" opacity=".08"/>
+    <rect x="0" y="187" width="900" height="3" fill="#16130f"/>
+    <rect x="40" y="40" width="12" height="12" fill="#e8521c"/>
+    <text x="40" y="74" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#8a837c">GITHUB PROFILE</text>
+    <text x="38" y="124" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="-1"><tspan fill="#16130f">NATHLAN </tspan><tspan fill="#e8521c">BROS</tspan></text>
+    <text x="40" y="156" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="14" font-weight="500" fill="#5b5752">Systems &#183; Interfaces &#183; Developer Experience</text>
+    <text x="650" y="120" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="92" font-weight="800" letter-spacing="-4" fill="#ffffff" opacity=".92">NB</text>
   </g>
 </svg>

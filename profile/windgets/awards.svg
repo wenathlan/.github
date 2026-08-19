@@ -1,40 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="160" viewBox="0 0 820 160" role="img" aria-label="Awards">
-  <defs>
-    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4430c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
-    <linearGradient id="m1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
-    <linearGradient id="m2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9ec9ff"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
-    <linearGradient id="m3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc59e"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-    <filter id="s" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#5a2a00" flood-opacity="0.12"/></filter>
-    <clipPath id="cl"><rect x="0" y="0" width="820" height="160" rx="20"/></clipPath>
-  </defs>
-  <g clip-path="url(#cl)">
-    <rect x="0" y="0" width="820" height="160" rx="20" fill="#ffffff" stroke="#f0e6df" filter="url(#s)"/>
-    <circle cx="796" cy="20" r="58" fill="url(#a)" opacity=".06"/>
-    <rect x="0" y="0" width="6" height="160" rx="3" fill="url(#a)"/>
-    <g transform="translate(28 22)"><rect x="0" y="-2" width="110" height="26" rx="13" fill="url(#a)"/><text x="15" y="16" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.4">AWARDS</text></g>
-    <g font-family="'Inter','Segoe UI',system-ui,sans-serif" text-anchor="middle">
-      <g transform="translate(200 96)">
-        <path d="M-12 -22 L-4 6 L4 6 L12 -22 Z" fill="#d4430c" opacity=".85"/>
-        <circle r="22" fill="url(#m1)"><animate attributeName="r" values="22;24;22" dur="3s" repeatCount="indefinite"/></circle>
-        <text y="6" font-size="16" font-weight="800" fill="#fff">&#9733;</text>
-        <rect x="-22" y="-22" width="44" height="44" fill="url(#shine)" opacity="0"><animate attributeName="opacity" values="0;.9;0" dur="3.5s" repeatCount="indefinite"/></rect>
-        <text y="44" font-size="11.5" font-weight="700" fill="#1f2937">Top Contributor</text>
-      </g>
-      <g transform="translate(410 96)">
-        <path d="M-12 -22 L-4 6 L4 6 L12 -22 Z" fill="#0b5cad" opacity=".85"/>
-        <circle r="22" fill="url(#m2)"><animate attributeName="r" values="22;24;22" dur="3.4s" repeatCount="indefinite"/></circle>
-        <text y="6" font-size="16" font-weight="800" fill="#fff">&#9733;</text>
-        <rect x="-22" y="-22" width="44" height="44" fill="url(#shine)" opacity="0"><animate attributeName="opacity" values="0;.9;0" dur="4s" repeatCount="indefinite" begin="0.5s"/></rect>
-        <text y="44" font-size="11.5" font-weight="700" fill="#1f2937">Star Gazer</text>
-      </g>
-      <g transform="translate(620 96)">
-        <path d="M-12 -22 L-4 6 L4 6 L12 -22 Z" fill="#fb923c" opacity=".85"/>
-        <circle r="22" fill="url(#m3)"><animate attributeName="r" values="22;24;22" dur="3.8s" repeatCount="indefinite"/></circle>
-        <text y="6" font-size="16" font-weight="800" fill="#fff">&#9733;</text>
-        <rect x="-22" y="-22" width="44" height="44" fill="url(#shine)" opacity="0"><animate attributeName="opacity" values="0;.9;0" dur="3.2s" repeatCount="indefinite" begin="1s"/></rect>
-        <text y="44" font-size="11.5" font-weight="700" fill="#1f2937">Open Source</text>
-      </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="124" viewBox="0 0 820 124" role="img" aria-label="Awards">
+  <rect x="0.5" y="0.5" width="819" height="123" fill="#ffffff" stroke="#e8e4df"/>
+  <rect x="0" y="0" width="4" height="124" fill="#e8521c"/>
+  <rect x="18" y="16" width="9" height="9" fill="#e8521c"/>
+  <text x="34" y="25" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="1.6" fill="#16130f">AWARDS</text>
+  <g font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(205 72)"><path d="M-11 -20 L-4 4 L4 4 L11 -20 Z" fill="#e8521c"/><circle r="20" fill="#e8521c"/><text y="6" font-size="15" font-weight="800" fill="#fff">&#9733;</text><text y="44" font-size="11.5" font-weight="700" fill="#16130f">Top Contributor</text></g>
+    <g transform="translate(410 72)"><path d="M-11 -20 L-4 4 L4 4 L11 -20 Z" fill="#16130f"/><circle r="20" fill="#16130f"/><text y="6" font-size="15" font-weight="800" fill="#fff">&#9733;</text><text y="44" font-size="11.5" font-weight="700" fill="#16130f">Star Gazer</text></g>
+    <g transform="translate(615 72)"><path d="M-11 -20 L-4 4 L4 4 L11 -20 Z" fill="#c9893f"/><circle r="20" fill="#c9893f"/><text y="6" font-size="15" font-weight="800" fill="#fff">&#9733;</text><text y="44" font-size="11.5" font-weight="700" fill="#16130f">Open Source</text></g>
   </g>
 </svg>

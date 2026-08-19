@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="197" height="130" viewBox="0 0 197 130" role="img"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#104AFF"/><stop offset="0.5" stop-color="#00BFFF"/><stop offset="1" stop-color="#1BF157"/></linearGradient></defs><rect x="0" y="0" width="197" height="130" fill="#ffffff" stroke="#d6e0f0"/><rect x="0" y="0" width="4" height="130" fill="url(#bg)"/><path d="M197 0 L197 46 C 175 46 151 30 151 0 Z" fill="url(#bg)"/><text x="18" y="25" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="1.2" fill="#051A4A">X</text><g transform="translate(18 44) scale(1)" fill="#051A4A"><path d="M3 3l7.5 9.2L3.4 21h1.9l6-6.9L16.4 21H21l-7.9-9.7L20.6 3h-1.9l-5.5 6.3L7.7 3H3Zm2.4.9h1.9L18.6 20.1h-1.9L5.4 3.9Z"/></g><text x="18" y="100" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="500" fill="#5b6b8a">@wenathlan</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="197" height="130" viewBox="0 0 197 130" font-family="'Inter','Segoe UI',system-ui,-apple-system,sans-serif">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#104AFF"/>
+    <stop offset="0.5" stop-color="#00BFFF"/>
+    <stop offset="1" stop-color="#1BF157"/>
+  </linearGradient></defs>
+ <rect x="0" y="0" width="197" height="130" fill="#ffffff"/>
+ <rect class="barL" x="0" y="0" width="4" height="130" fill="url(#bg)"/>
+ <path class="cut" d="M197 0 L197 130 L122.6 130 C 140.1 102.6 140.1 34.2 157.6 0 Z" fill="url(#bg)"/>
+ 
+ <rect x="18" y="16" width="4" height="14" rx="2" fill="#1BF157"/><text x="30" y="28" font="700 13 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" letter-spacing="0.08em" fill="#051A4A">CONNECT</text>
+ <g transform="translate(18 40)" fill="#051A4A"><rect width="32" height="32" rx="6"/><path transform="translate(5 5)" fill="#fff" d="M3.4 17.3V10.8H.2V17.3h3.2zM1.8 9.5a1.85 1.85 0 110-3.7 1.85 1.85 0 010 3.7zM17.8 17.3v-3.8c0-2-1.07-2.94-2.5-2.94-1.15 0-1.66.63-1.95 1.07V10.8h-3.2v6.5h3.2v-3.6c0-.95.18-1.87 1.35-1.87 1.16 0 1.18 1.08 1.18 1.93v3.54h3.12zM11.3 6.3c0 .86-.7 1.55-1.56 1.55S8.18 7.16 8.18 6.3 8.88 4.75 9.74 4.75s1.56.7 1.56 1.55z"/></g>
+ <text x="18" y="92" font="700 13 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace" fill="#051A4A">LinkedIn</text>
+ <text x="18" y="112" font="400 11 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" fill="#33415C">in / nathalan</text>
+
+ <rect x="0.5" y="0.5" width="196" height="129" rx="14" fill="none" stroke="#d6e0f0"/>
+</svg>

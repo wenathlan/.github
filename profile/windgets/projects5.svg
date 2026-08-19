@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="140" viewBox="0 0 400 140" role="img"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#104AFF"/><stop offset="0.5" stop-color="#00BFFF"/><stop offset="1" stop-color="#1BF157"/></linearGradient></defs><rect x="0" y="0" width="400" height="140" fill="#ffffff" stroke="#d6e0f0"/><rect x="0" y="0" width="4" height="140" fill="url(#bg)"/><path d="M400 0 L400 46 C 378 46 354 30 354 0 Z" fill="url(#bg)"/><text x="18" y="25" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="1.2" fill="#051A4A">PROJECT 05</text><text x="18" y="60" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="17" font-weight="800" fill="#051A4A">MonoKit</text><text x="18" y="84" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="500" fill="#5b6b8a">Design system &amp; component</text><text x="18" y="100" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="500" fill="#5b6b8a">library for fast product UI.</text><rect x="18" y="116" width="312" height="5" fill="#e6eefb"/><rect x="18" y="116" width="224.64" height="5" fill="#1BF157"/><text x="382" y="123" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="800" fill="#051A4A" text-anchor="end">72%</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="140" viewBox="0 0 400 140" font-family="'Inter','Segoe UI',system-ui,-apple-system,sans-serif">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#104AFF"/>
+    <stop offset="0.5" stop-color="#00BFFF"/>
+    <stop offset="1" stop-color="#1BF157"/>
+  </linearGradient></defs>
+ <rect x="0" y="0" width="400" height="140" fill="#ffffff"/>
+ <rect class="barL" x="0" y="0" width="4" height="140" fill="url(#bg)"/>
+ <path class="cut" d="M400 0 L400 140 L248.9 140 C 284.4 110.5 284.4 36.8 320.0 0 Z" fill="url(#bg)"/>
+ 
+ <rect x="18" y="16" width="4" height="14" rx="2" fill="#1BF157"/><text x="30" y="28" font="700 13 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" letter-spacing="0.08em" fill="#051A4A">PROJECTS</text>
+ <text x="18" y="50" font="700 17 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace" font-size="17" fill="#051A4A">05 · OBSERVE</text>
+ <text x="18" y="74" font="400 12 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" fill="#33415C">Observe</text>
+ <rect class="b2" x="18" y="84" width="266" height="6" rx="3" fill="#33415C22"/>
+ <rect class="b1 bar" x="18" y="84" width="248.26666666666668" height="6" rx="3" fill="#1BF157" opacity=".45"/>
+ <rect class="b3 bar" x="18" y="84" width="248.26666666666668" height="6" rx="3" fill="#1BF157"/>
+ <text x="18" y="118" font="600 11 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace" fill="#1BF157">Tracing &amp; metrics that read like a story.</text>
+ <text x="170" y="118" font="600 11 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace" fill="#33415C">PLANNED</text>
+
+ <rect x="0.5" y="0.5" width="399" height="139" rx="14" fill="none" stroke="#d6e0f0"/>
+</svg>

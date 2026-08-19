@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/hero.svg" width="900"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/hero.svg?v=2" width="900"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=1000&color=e8521c&center=true&vCenter=true&repeat=true&width=640&height=42&lines=Nathlan+Bros+%7C+Solutions+%7C+Engineering+%7C+Ventures;Audio+AI+%7C+Open+Source+%7C+Design+%7C+DevStack;Architecting+tomorrow's+technology+today" alt="Typing"/>
 
@@ -15,7 +15,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/architecture.svg" width="820"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/architecture.svg?v=2" width="820"/>
 
 </div>
 
@@ -23,7 +23,7 @@
 
 <h3>✦ WHO WE ARE ✦</h3>
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/whoami.svg" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/status.svg" width="400"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/whoami.svg?v=2" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/status.svg?v=2" width="400"/>
 
 </div>
 
@@ -45,11 +45,11 @@
 
 <h3>✦ PROJECTS ✦</h3>
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects1.svg" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects2.svg" width="400"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects1.svg?v=2" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects2.svg?v=2" width="400"/>
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects3.svg" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects4.svg" width="400"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects3.svg?v=2" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects4.svg?v=2" width="400"/>
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects5.svg" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects6.svg" width="400"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects5.svg?v=2" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/projects6.svg?v=2" width="400"/>
 
 </div>
 
@@ -57,7 +57,7 @@
 
 <h3>✦ TEAM &amp; CONNECT ✦</h3>
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/team.svg" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/connect.svg" width="400"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/team.svg?v=2" width="400"/> <img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/connect.svg?v=2" width="400"/>
 
 </div>
 
@@ -65,10 +65,10 @@
 
 <h3>✦ LANGUAGES ✦</h3>
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/stats.svg" width="400"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/stats.svg?v=2" width="400"/>
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/contributions.svg" width="820"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/contributions.svg?v=2" width="820"/>
 
-<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/awards.svg" width="820"/>
+<img src="https://raw.githubusercontent.com/iNathlan/.github/main/profile/windgets/awards.svg?v=2" width="820"/>
 
 </div>

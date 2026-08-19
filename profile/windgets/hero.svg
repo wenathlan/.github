@@ -11,7 +11,7 @@
     
     <text x="40" y="74" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#8a837c">GITHUB PROFILE</text>
     <text x="38" y="124" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="-1"><tspan fill="#16130f">NATHLAN </tspan><tspan fill="#e8521c">BROS</tspan></text>
-    <text x="40" y="156" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="14" font-weight="500" fill="#5b5752">Systems &#183; Interfaces &#183; Developer Experience</text>
+    <text x="40" y="156" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="14" font-weight="500" fill="#5b5752">Systems / Interfaces / Developer Experience</text>
     <text x="650" y="120" font-family="'Inter','Helvetica Neue','Segoe UI',system-ui,Arial,sans-serif" font-size="92" font-weight="800" letter-spacing="-4" fill="#ffffff" opacity=".92">NB</text>
   </g>
 </svg>

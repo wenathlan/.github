@@ -1,27 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150" role="img" aria-label="Who we are">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img">
   <defs>
-    <linearGradient id="hO" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fffaf6"/></linearGradient>
-    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#7a2a00" flood-opacity="0.10"/></filter>
-    <clipPath id="cw"><rect x="6" y="6" width="388" height="138" rx="18"/></clipPath>
+    <linearGradient id="awhoami" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4430c"/><stop offset="1" stop-color="#0b5cad"/></linearGradient>
+    <linearGradient id="bwhoami" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/></linearGradient>
+    <filter id="swhoami" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#5a2a00" flood-opacity="0.12"/></filter>
+    <clipPath id="cl"><rect x="0" y="0" width="400" height="200" rx="20"/></clipPath>
   </defs>
-  <g clip-path="url(#cw)">
-    <rect x="6" y="6" width="388" height="138" rx="18" fill="url(#card)" stroke="#f0e6df" filter="url(#sh)"/>
-    <rect x="6" y="6" width="6" height="138" rx="3" fill="url(#hO)"/>
-    <g transform="translate(30 28)">
-      <rect x="0" y="-2" width="120" height="30" rx="15" fill="url(#hO)"/>
-      <text x="16" y="18" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="1">WHO WE ARE</text>
-    </g>
-    <text x="30" y="80" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="15" font-weight="700" fill="#1f2937">We build tomorrow's tech today.</text>
-    <text x="30" y="104" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12.5" fill="#475467">Studio across audio AI, open source</text>
-    <text x="30" y="122" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12.5" fill="#475467">&amp; product design — shipped.</text>
-    <!-- animated mini-stack -->
-    <g transform="translate(330 36)">
-      <rect x="0" y="40" width="48" height="14" rx="5" fill="#eaf3fc"/>
-      <rect x="6" y="26" width="36" height="14" rx="5" fill="#fff1e8"/>
-      <rect x="12" y="12" width="24" height="14" rx="5" fill="url(#hO)">
-        <animate attributeName="opacity" values="1;.6;1" dur="2.6s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+  <g clip-path="url(#cl)">
+    <rect x="0" y="0" width="400" height="200" rx="20" fill="#ffffff" stroke="#f0e6df" filter="url(#swhoami)"/>
+    <circle cx="376" cy="20" r="58" fill="url(#awhoami)" opacity=".06"/>
+    <rect x="0" y="0" width="6" height="200" rx="3" fill="url(#awhoami)"/>
+    <g transform="translate(26 22)"><rect x="0" y="-2" width="106" height="26" rx="13" fill="url(#awhoami)"/><text x="15" y="16" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="1.4">WHO WE ARE</text></g>
+    <text x="26" y="70" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="20" font-weight="800" fill="#1f2937">Nathlan Bros</text>
+    <rect x="26" y="80" width="68" height="3" rx="1.5" fill="url(#awhoami)"/>
+    <text x="26" y="100" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">We are a studio crafting audio AI,</text>
+    <text x="26" y="118" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">open-source tooling and bold product</text>
+    <text x="26" y="136" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="11.5" font-weight="500" fill="#6b7280">experiences — designed with care.</text>
   </g>
 </svg>

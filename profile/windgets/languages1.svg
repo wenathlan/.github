@@ -14,7 +14,7 @@
  <rect class="b2" x="18" y="92" width="230" height="10" rx="5" fill="#33415C20"/>
  <rect class="b1 bar" x="18" y="92" width="223.1" height="10" rx="5" fill="#104AFF" opacity=".45"/>
  <rect class="b3 bar" x="18" y="92" width="223.1" height="10" rx="5" fill="#104AFF"/>
- <text x="18" y="118" font="600 10.5 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" fill="#33415C">Most used · 4.2k commits</text>
+ <text x="18" y="118" font="600 10.5 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" fill="#33415C">Most used / 4.2k commits</text>
 
  <rect x="0.5" y="0.5" width="265" height="129" rx="14" fill="none" stroke="#d6e0f0"/>
 </svg>

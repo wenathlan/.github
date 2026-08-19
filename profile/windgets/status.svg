@@ -11,7 +11,7 @@
  <rect x="18" y="16" width="4" height="14" rx="2" fill="#1BF157"/><text x="30" y="28" font="700 13 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" letter-spacing="0.08em" fill="#051A4A">STATUS</text>
  <text x="18" y="56" font="400 12.5 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" fill="#051A4A">Building maker-first infra for audio &amp; data.</text>
  <text x="18" y="84" font="400 12 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" fill="#33415C">Open to advisory / consulting on data &amp; AI.</text>
- <text x="18" y="108" font="600 11 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace" fill="#1BF157">AVAILABLE · 2026 Q3</text>
+ <text x="18" y="108" font="600 11 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace" fill="#1BF157">AVAILABLE / 2026 Q3</text>
 
  <rect x="0.5" y="0.5" width="399" height="139" rx="14" fill="none" stroke="#d6e0f0"/>
 </svg>

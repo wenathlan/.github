@@ -9,7 +9,7 @@
  <path class="cut" d="M400 0 L400 140 L248.9 140 C 284.4 110.5 284.4 36.8 320.0 0 Z" fill="url(#bg)"/>
  
  <rect x="18" y="16" width="4" height="14" rx="2" fill="#1BF157"/><text x="30" y="28" font="700 13 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" letter-spacing="0.08em" fill="#051A4A">PROJECTS</text>
- <text x="18" y="50" font="700 17 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace" font-size="17" fill="#051A4A">05 · OBSERVE</text>
+ <text x="18" y="50" font="700 17 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace" font-size="17" fill="#051A4A">05 / OBSERVE</text>
  <text x="18" y="74" font="400 12 'Inter','Segoe UI',system-ui,-apple-system,sans-serif" fill="#33415C">Observe</text>
  <rect class="b2" x="18" y="84" width="266" height="6" rx="3" fill="#33415C22"/>
  <rect class="b1 bar" x="18" y="84" width="248.26666666666668" height="6" rx="3" fill="#1BF157" opacity=".45"/>

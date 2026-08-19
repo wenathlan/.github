@@ -1,46 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="820" height="150" viewBox="0 0 820 150">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="230" viewBox="0 0 820 230" role="img" aria-label="Project: Venture Lab">
   <defs>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    <linearGradient id="bv6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5ab0ff"/>
+      <stop offset="1" stop-color="#0b5cad"/>
+    </linearGradient>
+    <filter id="sh6" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0b3a66" flood-opacity="0.10"/>
     </filter>
   </defs>
-  <style>
-    text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
-    .pname { font-size: 18px; font-weight: 800; letter-spacing: -0.5px; }
-    .pdesc { font-size: 12px; fill: #94A3B8; font-weight: 500; }
-    .ptag { font-size: 10px; fill: #64748B; font-weight: 600; letter-spacing: 0.5px; }
-    .pct { font-size: 10px; font-weight: 700; }
-    .porg { font-size: 9px; fill: #475569; font-weight: 700; letter-spacing: 2px; }
-  </style>
-  <rect width="820" height="150" rx="16" fill="transparent"/>
-  <rect x="16" y="16" width="255" height="118" rx="14" fill="transparent"/>
-  <circle cx="143" cy="38" r="16" fill="transparent" stroke-dasharray="4 4" stroke="#FF6B00" stroke-width="1.5"/>
-  <path d="M138 32h10v8h-10z" fill="none" stroke="#FF6B00" stroke-width="1.5" rx="2"/>
-  <path d="M141 35h4M141 38h3" stroke="#FF6B00" stroke-width="1.2" stroke-linecap="round"/>
-  <text x="143" y="66" text-anchor="middle" class="porg">iNathlan</text>
-  <text x="143" y="82" text-anchor="middle" class="pname" fill="#FF6B00">Mark-Zytros</text>
-  <text x="143" y="98" text-anchor="middle" class="pdesc">Institutional HQ Platform</text>
-  <rect x="43" y="106" width="200" height="10" rx="5" fill="#1E293B"/>
-  <rect x="43" y="106" width="160" height="10" rx="5" fill="#FF6B00" opacity="0.8" filter="url(#glow)"/>
-  <text x="143" y="114" text-anchor="middle" class="pct" fill="#fff">80%</text>
-  <rect x="283" y="16" width="255" height="118" rx="14" fill="transparent"/>
-  <circle cx="410" cy="38" r="16" fill="transparent" stroke-dasharray="4 4" stroke="#f97316" stroke-width="1.5"/>
-  <path d="M404 30l12 12M404 42l12-12" stroke="#f97316" stroke-width="2" stroke-linecap="round"/>
-  <text x="410" y="66" text-anchor="middle" class="porg">iNathlan</text>
-  <text x="410" y="82" text-anchor="middle" class="pname" fill="#f97316">Nackown</text>
-  <text x="410" y="98" text-anchor="middle" class="pdesc">Creative toolkit &amp; utilities</text>
-  <rect x="310" y="106" width="200" height="10" rx="5" fill="#1E293B"/>
-  <rect x="310" y="106" width="110" height="10" rx="5" fill="#f97316" opacity="0.8" filter="url(#glow)"/>
-  <text x="410" y="114" text-anchor="middle" class="pct" fill="#fff">55%</text>
-  <rect x="550" y="16" width="255" height="118" rx="14" fill="transparent"/>
-  <circle cx="677" cy="38" r="16" fill="transparent" stroke-dasharray="4 4" stroke="#6e7681" stroke-width="1.5"/>
-  <path d="M670 32h4v4h-4zM676 32h4v4h-4zM670 38h4v4h-4zM676 38h4v4h-4z" fill="none" stroke="#6e7681" stroke-width="1.2" rx="1"/>
-  <text x="677" y="66" text-anchor="middle" class="porg">iNathlan</text>
-  <text x="677" y="82" text-anchor="middle" class="pname" fill="#6e7681">PS-Clear</text>
-  <text x="677" y="98" text-anchor="middle" class="pdesc">PowerShell system utility</text>
-  <rect x="577" y="106" width="200" height="10" rx="5" fill="#1E293B"/>
-  <rect x="577" y="106" width="80" height="10" rx="5" fill="#6e7681" opacity="0.8" filter="url(#glow)"/>
-  <text x="677" y="114" text-anchor="middle" class="pct" fill="#fff">40%</text>
-</svg>
+  <rect x="8" y="8" width="804" height="214" rx="22" fill="#ffffff" stroke="#e3eefa" filter="url(#sh6)"/>
 
+  <g transform="translate(40 47)">
+    <rect x="0" y="0" width="120" height="120" rx="26" fill="url(#bv6)"/>
+    <g transform="translate(60 64)" fill="#ffffff">
+      <path d="M0 -34 C 10 -14, 10 -8, 26 -8 C 18 2, 6 2, 0 22 C -6 2, -18 2, -26 -8 C -10 -8, -10 -14, 0 -34 Z"/>
+      <circle cx="-14" cy="20" r="4"/>
+      <circle cx="14" cy="20" r="4"/>
+    </g>
+  </g>
+
+  <g transform="translate(196 56)">
+    <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="800" fill="#1f2937">Venture Lab</text>
+    <text x="0" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">R&amp;D studio for new products &amp; bets.</text>
+    <text x="0" y="52" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">Prototype fast, validate, then ship.</text>
+  </g>
+
+  <g transform="translate(196 138)" font-family="'Segoe UI', system-ui, sans-serif" font-size="12.5" font-weight="600">
+    <rect x="0" y="0" width="64" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
+    <text x="14" y="20" fill="#0b4a8a">Next.js</text>
+    <rect x="74" y="0" width="74" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
+    <text x="88" y="20" fill="#9a3412">Supabase</text>
+    <rect x="162" y="0" width="66" height="30" rx="15" fill="#eaf3fc" stroke="#cfe3f7"/>
+    <text x="176" y="20" fill="#0b4a8a">Vercel</text>
+    <rect x="242" y="0" width="70" height="30" rx="15" fill="#fff1e8" stroke="#fcd9c2"/>
+    <text x="256" y="20" fill="#9a3412">Stripe</text>
+  </g>
+
+  <text x="760" y="44" text-anchor="end" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="700" fill="#0b5cad">06 / 06</text>
+</svg>

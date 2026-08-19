@@ -1,56 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="280" viewBox="0 0 820 280" role="img" aria-label="Team">
   <defs>
-    <filter id="neonGlow">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    <linearGradient id="hT" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#0b5cad"/>
+    </linearGradient>
+    <filter id="shT" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#5a2a00" flood-opacity="0.10"/>
     </filter>
+    <linearGradient id="av1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#d4430c"/>
+    </linearGradient>
+    <linearGradient id="av2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5ab0ff"/><stop offset="1" stop-color="#0b5cad"/>
+    </linearGradient>
+    <linearGradient id="av3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb27a"/><stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
   </defs>
-  <style>
-    text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
-    .name { font-size: 16px; font-weight: 800; letter-spacing: -0.5px; }
-    .role { font-size: 11px; fill: #94A3B8; font-weight: 600; letter-spacing: 1px; }
-    .tag { font-size: 9px; font-weight: 700; letter-spacing: 2px; }
-    .org-title { font-size: 12px; font-weight: 800; letter-spacing: 4px; fill: #64748B; }
-  </style>
 
-  <rect width="820" height="300" fill="transparent"/>
+  <rect x="8" y="8" width="804" height="264" rx="24" fill="#ffffff" stroke="#eee2db" filter="url(#shT)"/>
+  <rect x="8" y="8" width="6" height="264" rx="3" fill="url(#hT)"/>
 
-  <!-- Card 1: wenathlan -->
-  <g transform="translate(170, 70)">
-    <circle cx="0" cy="0" r="36" fill="none" stroke="#7c3aed" stroke-width="2" filter="url(#neonGlow)" opacity="0.8"/>
-    <text x="0" y="6" text-anchor="middle" font-size="24" font-weight="800" fill="#A855F7" opacity="0.8">W</text>
-    <text x="0" y="60" text-anchor="middle" class="name" fill="#F8FAFC">wenathlan</text>
-    <text x="0" y="78" text-anchor="middle" class="role">Founder &amp; Architect</text>
-    
-    <rect x="-40" y="90" width="80" height="18" rx="9" fill="#7c3aed" opacity="0.15"/>
-    <text x="0" y="102" text-anchor="middle" class="tag" fill="#A855F7">CORE DEV</text>
+  <g transform="translate(40 44)">
+    <rect x="0" y="-2" width="140" height="38" rx="19" fill="url(#hT)"/>
+    <text x="22" y="24" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="1.5">TEAM</text>
   </g>
 
-  <!-- Card 2: aasblor -->
-  <g transform="translate(410, 70)">
-    <circle cx="0" cy="0" r="36" fill="none" stroke="#F97316" stroke-width="2" filter="url(#neonGlow)" opacity="0.8"/>
-    <text x="0" y="6" text-anchor="middle" font-size="24" font-weight="800" fill="#FB923C" opacity="0.8">A</text>
-    <text x="0" y="60" text-anchor="middle" class="name" fill="#F8FAFC">aasblor</text>
-    <text x="0" y="78" text-anchor="middle" class="role">Backend Developer</text>
-    
-    <rect x="-40" y="90" width="80" height="18" rx="9" fill="#F97316" opacity="0.15"/>
-    <text x="0" y="102" text-anchor="middle" class="tag" fill="#FB923C">ENGINEER</text>
+  <text x="40" y="104" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#475467">A small, senior crew across engineering, design and research.</text>
+
+  <!-- avatars -->
+  <g font-family="'Segoe UI', system-ui, sans-serif" text-anchor="middle">
+    <g transform="translate(110 200)">
+      <circle cx="0" cy="0" r="34" fill="url(#av1)"/>
+      <text x="0" y="6" font-size="20" font-weight="800" fill="#ffffff">NA</text>
+      <text x="0" y="58" font-size="14" font-weight="700" fill="#1f2937">Nathalan</text>
+      <text x="0" y="78" font-size="12.5" fill="#6b7280">Founder · Eng</text>
+    </g>
+    <g transform="translate(290 200)">
+      <circle cx="0" cy="0" r="34" fill="url(#av2)"/>
+      <text x="0" y="6" font-size="20" font-weight="800" fill="#ffffff">RD</text>
+      <text x="0" y="58" font-size="14" font-weight="700" fill="#1f2937">R. Dias</text>
+      <text x="0" y="78" font-size="12.5" fill="#6b7280">Research</text>
+    </g>
+    <g transform="translate(470 200)">
+      <circle cx="0" cy="0" r="34" fill="url(#av3)"/>
+      <text x="0" y="6" font-size="20" font-weight="800" fill="#ffffff">LM</text>
+      <text x="0" y="58" font-size="14" font-weight="700" fill="#1f2937">L. Moreau</text>
+      <text x="0" y="78" font-size="12.5" fill="#6b7280">Design</text>
+    </g>
+    <g transform="translate(650 200)">
+      <circle cx="0" cy="0" r="34" fill="url(#av2)"/>
+      <text x="0" y="6" font-size="20" font-weight="800" fill="#ffffff">+U</text>
+      <text x="0" y="58" font-size="14" font-weight="700" fill="#1f2937">You?</text>
+      <text x="0" y="78" font-size="12.5" fill="#6b7280">Open roles</text>
+    </g>
   </g>
-
-  <!-- Card 3: nasblor -->
-  <g transform="translate(650, 70)">
-    <circle cx="0" cy="0" r="36" fill="none" stroke="#FBBF24" stroke-width="2" filter="url(#neonGlow)" opacity="0.8"/>
-    <text x="0" y="6" text-anchor="middle" font-size="24" font-weight="800" fill="#FCD34D" opacity="0.8">N</text>
-    <text x="0" y="60" text-anchor="middle" class="name" fill="#F8FAFC">nasblor</text>
-    <text x="0" y="78" text-anchor="middle" class="role">Product Designer</text>
-    
-    <rect x="-40" y="90" width="80" height="18" rx="9" fill="#FBBF24" opacity="0.15"/>
-    <text x="0" y="102" text-anchor="middle" class="tag" fill="#FCD34D">DESIGNER</text>
-  </g>
-
-  <!-- Connectors -->
-  <line x1="260" y1="210" x2="330" y2="210" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4"/>
-  <line x1="490" y1="210" x2="560" y2="210" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4"/>
-
-  <text x="410" y="240" text-anchor="middle" class="org-title">ORGANIZATION STRUCTURE</text>
 </svg>

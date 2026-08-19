@@ -1,41 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="100" viewBox="0 0 820 100">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="250" viewBox="0 0 820 250" role="img" aria-label="Status">
   <defs>
-    <linearGradient id="pillBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#334155" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4"/>
+    <linearGradient id="hB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5ab0ff"/>
+      <stop offset="1" stop-color="#0b5cad"/>
     </linearGradient>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    <linearGradient id="cardB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f6fafe"/>
+    </linearGradient>
+    <filter id="shB" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0b3a66" flood-opacity="0.10"/>
     </filter>
   </defs>
-  <style>
-    text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
-    .status-text { font-size: 13px; font-weight: 600; letter-spacing: 0.5px; }
-    .status-sub { font-size: 10px; font-weight: 700; fill: #475569; letter-spacing: 3px; }
-    .pill { stroke: url(#pillBorder); stroke-width: 1.5; fill: #0f172a; fill-opacity: 0.4; }
-  </style>
 
-  <rect width="820" height="100" fill="transparent"/>
+  <rect x="8" y="8" width="804" height="234" rx="24" fill="url(#cardB)" stroke="#e3eefa" filter="url(#shB)"/>
+  <rect x="8" y="8" width="6" height="234" rx="3" fill="url(#hB)"/>
 
-  <g transform="translate(108, 15)">
-    <rect x="0" y="0" width="180" height="40" rx="20" class="pill" filter="url(#softGlow)"/>
-    <text x="90" y="25" text-anchor="middle" class="status-text" fill="#E2E8F0">&#x1F4CD; Brazil &#x1F1E7;&#x1F1F7;</text>
+  <g transform="translate(40 44)">
+    <rect x="0" y="-2" width="150" height="38" rx="19" fill="url(#hB)"/>
+    <text x="22" y="24" font-family="'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="1.5">STATUS</text>
   </g>
 
-  <g transform="translate(318, 15)">
-    <rect x="0" y="0" width="180" height="40" rx="20" class="pill" filter="url(#softGlow)"/>
-    <circle cx="25" cy="20" r="4" fill="#00D4FF">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  <!-- live availability -->
+  <g transform="translate(610 38)">
+    <circle cx="12" cy="12" r="12" fill="#0b5cad" opacity="0.15"/>
+    <circle cx="12" cy="12" r="6" fill="#0b5cad"/>
+    <circle cx="12" cy="12" r="6" fill="none" stroke="#0b5cad" stroke-width="2">
+      <animate attributeName="r" values="6;13;6" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="100" y="25" text-anchor="middle" class="status-text" fill="#00D4FF">Building the Future</text>
+    <text x="34" y="17" font-family="'Segoe UI', system-ui, sans-serif" font-size="13.5" font-weight="600" fill="#0b4a8a">Available for work</text>
   </g>
 
-  <g transform="translate(528, 15)">
-    <rect x="0" y="0" width="180" height="40" rx="20" class="pill" filter="url(#softGlow)"/>
-    <path d="M30 14 L24 22 L28 22 L26 28 L32 20 L28 20 Z" fill="#FBBF24"/>
-    <text x="105" y="25" text-anchor="middle" class="status-text" fill="#FBBF24">DevStack Division</text>
+  <!-- status rows -->
+  <g font-family="'Segoe UI', system-ui, sans-serif">
+    <g transform="translate(40 110)">
+      <rect x="0" y="0" width="740" height="44" rx="12" fill="#fff1e8" stroke="#fcd9c2"/>
+      <circle cx="22" cy="22" r="7" fill="#d4430c"/>
+      <text x="44" y="27" font-size="15.5" font-weight="600" fill="#1f2937">Building</text>
+      <text x="130" y="27" font-size="15.5" fill="#475467">real-time audio AI &amp; DSP pipelines</text>
+    </g>
+    <g transform="translate(40 166)">
+      <rect x="0" y="0" width="740" height="44" rx="12" fill="#eaf3fc" stroke="#cfe3f7"/>
+      <circle cx="22" cy="22" r="7" fill="#0b5cad"/>
+      <text x="44" y="27" font-size="15.5" font-weight="600" fill="#1f2937">Learning</text>
+      <text x="130" y="27" font-size="15.5" fill="#475467">Rust systems &amp; WASM edge inference</text>
+    </g>
   </g>
-
-  <text x="410" y="85" text-anchor="middle" class="status-sub">ORGANIZATION · RESEARCH · ENGINEERING · VENTURES</text>
 </svg>
